@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplikasi Hitung Volume Balok</string>
+    <string name="textHasil">Hasil</string>
+    <string name="tv_hasil">0</string>
+    <string name="textJudul">Hitung Volume Balok</string>
+    <string name="textPanjang">Panjang</string>
+    <string name="textLebar">Lebar</string>
+    <string name="textTinggi">Tinggi</string>
+    <string name="textHitung">Hitung</string>
+</resources>
