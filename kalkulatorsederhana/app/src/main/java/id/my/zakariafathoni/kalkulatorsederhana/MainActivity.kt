@@ -65,27 +65,23 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     tvHasil.text = jumlah.toString()
                 }
             }
-
             if(v.id == R.id.btnMin){
                 if (!isEmptyField){
                     val jumlah = inputAngka1.toDouble() - inputAngka2.toDouble()
                     tvHasil.text = jumlah.toString()
                 }
-
             }
             if(v.id == R.id.btnKali){
                 if (!isEmptyField){
                     val jumlah = inputAngka1.toDouble() * inputAngka2.toDouble()
                     tvHasil.text = jumlah.toString()
                 }
-
             }
             if(v.id == R.id.btnBagi){
                 if (!isEmptyField){
                     val jumlah = inputAngka1.toDouble() / inputAngka2.toDouble()
                     tvHasil.text = jumlah.toString()
                 }
-
             }
             if(v.id == R.id.btnClear){
                 editBil1.text = null
@@ -99,6 +95,4 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onSaveInstanceState(outState)
         outState.putString(STATE_RESULT,tvHasil.text.toString())
     }
-
-
 }
