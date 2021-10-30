@@ -48,37 +48,25 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         if (v != null) {
+            val inputAngka1 = editBil1.text.toString().trim()
+            val inputAngka2 = editBil2.text.toString().trim()
+            var isEmptyField = false
+            if (inputAngka1.isEmpty()){
+                isEmptyField = true
+                editBil1.error = "Field Tidak Boleh Kosong"
+            }
+            if (inputAngka2.isEmpty()){
+                isEmptyField = true
+                editBil2.error = "Field Tidak Boleh Kosong"
+            }
             if(v.id == R.id.btnPlus){
-                val inputAngka1 = editBil1.text.toString().trim()
-                val inputAngka2 = editBil2.text.toString().trim()
-                var isEmptyField = false
-                if (inputAngka1.isEmpty()){
-                    isEmptyField = true
-                    editBil1.error = "Field Tidak Boleh Kosong"
-                }
-                if (inputAngka2.isEmpty()){
-                    isEmptyField = true
-                    editBil2.error = "Field Tidak Boleh Kosong"
-                }
                 if (!isEmptyField){
                     val jumlah = inputAngka1.toDouble() + inputAngka2.toDouble()
                     tvHasil.text = jumlah.toString()
                 }
-
             }
 
             if(v.id == R.id.btnMin){
-                val inputAngka1 = editBil1.text.toString().trim()
-                val inputAngka2 = editBil2.text.toString().trim()
-                var isEmptyField = false
-                if (inputAngka1.isEmpty()){
-                    isEmptyField = true
-                    editBil1.error = "Field Tidak Boleh Kosong"
-                }
-                if (inputAngka2.isEmpty()){
-                    isEmptyField = true
-                    editBil2.error = "Field Tidak Boleh Kosong"
-                }
                 if (!isEmptyField){
                     val jumlah = inputAngka1.toDouble() - inputAngka2.toDouble()
                     tvHasil.text = jumlah.toString()
@@ -86,17 +74,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             }
             if(v.id == R.id.btnKali){
-                val inputAngka1 = editBil1.text.toString().trim()
-                val inputAngka2 = editBil2.text.toString().trim()
-                var isEmptyField = false
-                if (inputAngka1.isEmpty()){
-                    isEmptyField = true
-                    editBil1.error = "Field Tidak Boleh Kosong"
-                }
-                if (inputAngka2.isEmpty()){
-                    isEmptyField = true
-                    editBil2.error = "Field Tidak Boleh Kosong"
-                }
                 if (!isEmptyField){
                     val jumlah = inputAngka1.toDouble() * inputAngka2.toDouble()
                     tvHasil.text = jumlah.toString()
@@ -104,17 +81,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             }
             if(v.id == R.id.btnBagi){
-                val inputAngka1 = editBil1.text.toString().trim()
-                val inputAngka2 = editBil2.text.toString().trim()
-                var isEmptyField = false
-                if (inputAngka1.isEmpty()){
-                    isEmptyField = true
-                    editBil1.error = "Field Tidak Boleh Kosong"
-                }
-                if (inputAngka2.isEmpty()){
-                    isEmptyField = true
-                    editBil2.error = "Field Tidak Boleh Kosong"
-                }
                 if (!isEmptyField){
                     val jumlah = inputAngka1.toDouble() / inputAngka2.toDouble()
                     tvHasil.text = jumlah.toString()
