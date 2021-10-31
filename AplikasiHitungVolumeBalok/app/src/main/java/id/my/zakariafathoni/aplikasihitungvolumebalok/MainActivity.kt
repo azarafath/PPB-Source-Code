@@ -58,7 +58,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     val jumlah = panjang.toDouble() * lebar.toDouble() * tinggi.toDouble()
                     tvHasil.text = jumlah.toString()
                 }
-
             }
         }
     }

@@ -84,8 +84,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
             if(v.id == R.id.btnClear){
-                editBil1.text = null
-                editBil2.text = null
+                editBil1.text.clear()
+                editBil2.text.clear()
                 tvHasil.text = "0"
             }
         }
