@@ -39,18 +39,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.btn_move_activity_with_data -> {
                 val moveWithDataActivity = Intent(this, MoveWithDataActivity::class.java)
-                moveWithDataActivity.putExtra(MoveWithDataActivity.EXTRA_NAME, "Ahmad Zakaria Fathoni")
-                moveWithDataActivity.putExtra(MoveWithDataActivity.EXTRA_AGE, 19)
+                moveWithDataActivity.putExtra(MoveWithDataActivity.EXTRA_NAME, "Name")//Insert Your Name
+                moveWithDataActivity.putExtra(MoveWithDataActivity.EXTRA_AGE, 0)//Insert Your Age
                 startActivity(moveWithDataActivity)
             }
 
             R.id.btn_move_activity_with_object -> {
                 val moveWithObjectActivity = Intent(this, MoveWithObjectActivity::class.java)
                 val person = Person(
-                    "Ahmad Zakaria Fathoni",
-                    19,
-                    "ahmadzakariafathoni@gmail.com",
-                    "Pati"
+                    "Name",//Insert Your Name
+                    0,//Insert Your Age
+                    "Email",//Insert Your Email
+                    "City"//Insert Your City
                 )
                 moveWithObjectActivity.putExtra(MoveWithObjectActivity.EXTRA_PERSON, person)
                 startActivity(moveWithObjectActivity)
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(webIntent)
             }
             R.id.btn_dial_phone -> {
-                val tel = +6282322093690
+                val tel = //INSERT YOUR PHONE NUMBER
                 val telIntent = Intent(Intent.ACTION_DIAL).apply {
                     data = Uri.parse("tel:$tel")
                 }
