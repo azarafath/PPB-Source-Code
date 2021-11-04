@@ -61,7 +61,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse(website))
                 startActivity(webIntent)
             }
-
+            R.id.btn_dial_phone -> {
+                val tel = +6282322093690
+                val telIntent = Intent(Intent.ACTION_DIAL).apply {
+                    data = Uri.parse("tel:$tel")
+                }
+                startActivity(telIntent)
+            }
         }
     }
 }
