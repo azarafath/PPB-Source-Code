@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplikasi Intent</string>
+    <string name="belajar_menggunakan_intent">Belajar Menggunakan Intent</string>
+    <string name="pindah_activity">Pindah Activity</string>
+    <string name="pindah_activity_dengan_data">Pindah Activity dengan Data</string>
+    <string name="menuju_website_polines">Menuju Website Polines</string>
+    <string name="pindah_activity_dengan_objek">Pindah Activity dengan Objek</string>
+    <string name="menuju_ke_dial_phone">Menuju ke Dial Phone</string>
+    <string name="ini_adalah_activity_baru">Ini adalah activity baru</string>
+</resources>
