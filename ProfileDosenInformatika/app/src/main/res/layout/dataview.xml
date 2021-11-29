@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/photo_avatar"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/img_item_photo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="BAKAL NAMA DOSEN"
+         />
+
+    <TextView
+        android:id="@+id/tv_item_nip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toEndOf="@id/img_item_photo"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:text="BAKAL NIP DOSEN"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_keahlian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_nip"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/img_item_photo"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:text="BAKAL KEAHLIAN DOSEN"
+        />
+
+</RelativeLayout>
