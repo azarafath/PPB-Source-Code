@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Ini adalah home fragment</string>
+    <string name="to_category_fragment">Category Fragment</string>
+    <string name="category_fragment">Ini adalah category fragment</string>
+    <string name="to_detail_category_fragment">Detail Category Fragment</string>
+    <string name="detail_category_fragment">Ini adalah Detail Category Fragment</string>
+    <string name="show_dialog">tampilkan dialog</string>
+    <string name="pertanyaan">Apa saja bahasa pemograman Android ? Kecuali</string>
+    <string name="java">Java</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="php">PHP</string>
+    <string name="dart">Dart</string>
+    <string name="tutup">Tutup</string>
+    <string name="pilih">Pilih</string>
+</resources>

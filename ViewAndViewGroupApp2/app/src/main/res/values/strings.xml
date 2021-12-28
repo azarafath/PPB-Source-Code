@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Belajar View ViewGroup</string>
+    <string name="photos">6 Photos</string>
+    <string name="harga_avanza">Rp 228.000.000</string>
+    <string name="tipe_avanza">All New Avanza 2022</string>
+    <string name="deskripsi_avanza">Mobil Avanza terbaru lebih irit. Memberi kenyamanan lebih kepada keluarga Indonesia. New Avanza dengan grille dan garis desain baru. Semakin elegan dan gagah. Menyajikan spesifikasi yang berbeda. Ubahan mendasar datang dari platform baru yang membuat dimensinya jadi lebih besar.</string>
+    <string name="spesifikasi">Spesifikasi</string>
+    <string name="ukuran">Ukuran</string>
+    <string name="ukuran_avanza">Panjang : 4395 mm,\nlebar : 1730 mm,\nTinggi : 1700 mm</string>
+    <string name="kapasitas_tangki">Kapasitas Tangki</string>
+    <string name="tangki_avanza">1498 cc</string>
+    <string name="mesin">Mesin</string>
+    <string name="mesin_avanza">1.5L Petrol Engine, 4 Cylinder 16 Valve</string>
+    <string name="fitur_terbaru">Fitur Terbaru</string>
+    <string name="fitur_avanza">New Striking Full Dashboard Design,
+        \nNew Dynamic Head Unit 9" Display,
+        \nPre-Collision System,
+        \nBlind Spot Monitoring,
+        \nConnected to Find My Car Application</string>
+    <string name="dijual_oleh">Dijual oleh</string>
+    <string name="toyota_nasmoco_semarang">Toyota Nasmoco Semarang</string>
+</resources>
