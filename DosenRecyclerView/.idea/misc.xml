@@ -6,11 +6,15 @@
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1421875" />
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/drawable/corner.xml" value="0.26458333333333334" />
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1421875" />
+        <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/layout/activity_info.xml" value="0.25" />
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.30440251572327043" />
+        <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/layout/dataview.xml" value="0.12604166666666666" />
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/layout/dosen_description.xml" value="0.176" />
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/layout/dosen_detail.xml" value="0.136" />
+        <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/layout/fragment_info.xml" value="0.25" />
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/layout/item_card_dosen.xml" value="0.4317673378076063" />
+        <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/menu/option_menu.xml" value="0.25" />
         <entry key="..\:/IK2E/Gasal/PPB Praktek/Assets/DosenRecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1421875" />
       </map>
     </option>

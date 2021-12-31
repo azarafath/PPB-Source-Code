@@ -1,11 +1,10 @@
 package id.my.zakariafathoni.dosenrecyclerview
 
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 
 class DosenDetail : AppCompatActivity() {
 
@@ -17,6 +16,7 @@ class DosenDetail : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dosen_detail)
         var imgPhoto: ImageView = findViewById(R.id.img_item_foto)
@@ -27,10 +27,14 @@ class DosenDetail : AppCompatActivity() {
         val name = intent.getStringExtra(EXTRA_NAME)
         val nip = intent.getStringExtra(EXTRA_NIP)
         val keahlian = intent.getStringExtra(EXTRA_KEAHLIAN)
-        val photo = intent.getIntExtra(EXTRA_PHOTO,0)
+        val photo = intent.getIntExtra(EXTRA_PHOTO, 0)
         imgPhoto.setImageResource(photo)
         tvNama.text = name
         tvNip.text = "NIP  :  " + nip
         tvKeahlian.text = "KEAHLIAN  :  " + keahlian
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }
