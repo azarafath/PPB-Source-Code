@@ -50,6 +50,7 @@
         android:layout_height="match_parent"
         android:paddingHorizontal="10dp"
         android:paddingVertical="20dp"
+        android:background="#56C7EB"
         card_view:cardCornerRadius="100dp"
         >
 
@@ -57,7 +58,7 @@
             android:id="@+id/tv_item_nip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="16sp"
             tools:text="0" />
 
@@ -66,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="30dp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="16sp"
             tools:text="KEAHLIAN" />
     </RelativeLayout>

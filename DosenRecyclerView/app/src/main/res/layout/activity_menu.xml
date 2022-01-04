@@ -9,8 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#56C7EB"
-        >
+        android:background="#56C7EB">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_item_foto"
@@ -19,11 +18,11 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="20dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
             android:contentDescription="photo avatar"
             android:scaleType="centerCrop"
-            android:src="@drawable/profileme"/>
+            android:src="@drawable/profileme" />
 
         <TextView
             android:id="@+id/tv_item_nama"
@@ -32,10 +31,10 @@
             android:layout_below="@+id/img_item_foto"
             android:layout_marginTop="20dp"
             android:gravity="center"
+            android:text="Ahmad Zakaria Fathoni"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:text="Ahmad Zakaria Fathoni"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/nimkelas"
@@ -49,15 +48,52 @@
             android:textSize="14sp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btn_contactMe"
-            android:layout_centerHorizontal="true"
+        <TextView
+            android:id="@+id/followMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nimkelas"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="FOLLOW ME :"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Contact Me"
-            android:layout_below="@+id/nimkelas"
-            android:backgroundTint="#17bc00"
-            />
+            android:layout_below="@+id/followMe"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_wa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#17bc00"
+                android:text="WhatsApp" />
+
+            <Button
+                android:id="@+id/btn_github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#4078c0"
+                android:text="Github" />
+
+            <Button
+                android:id="@+id/btn_linked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#0077b5"
+                android:text="Linkedin" />
+        </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>
