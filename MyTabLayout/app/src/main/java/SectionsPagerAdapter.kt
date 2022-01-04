@@ -1,6 +1,7 @@
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import id.my.zakariafathoni.mytablayout.CallFragment
 import id.my.zakariafathoni.mytablayout.ChatFragment
 import id.my.zakariafathoni.mytablayout.StatusFragment
 
@@ -11,11 +12,12 @@ class SectionsPagerAdapter(activity: AppCompatActivity) : FragmentStateAdapter(a
         when (position) {
             0 -> fragment = ChatFragment()
             1 -> fragment = StatusFragment()
+            2 -> fragment = CallFragment()
         }
         return fragment as Fragment
     }
 
     override fun getItemCount(): Int {
-        return 2
+        return 3
     }
 }
