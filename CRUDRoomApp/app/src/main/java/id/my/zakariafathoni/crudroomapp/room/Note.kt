@@ -1,5 +1,4 @@
 package id.my.zakariafathoni.crudroomapp.room
-
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 

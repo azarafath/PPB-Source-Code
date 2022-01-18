@@ -1,6 +1,5 @@
 package id.my.zakariafathoni.crudroomapp
 
-import NoteDB
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -10,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import id.my.zakariafathoni.crudroomapp.databinding.ActivityMainBinding
 import id.my.zakariafathoni.crudroomapp.room.Constant
 import id.my.zakariafathoni.crudroomapp.room.Note
+import id.my.zakariafathoni.crudroomapp.room.NoteDB
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

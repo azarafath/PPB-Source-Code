@@ -1,19 +1,19 @@
 package id.my.zakariafathoni.crudroomapp
 
-import NoteDB
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import id.my.zakariafathoni.crudroomapp.databinding.ActivityEditBinding
 import id.my.zakariafathoni.crudroomapp.room.Constant
 import id.my.zakariafathoni.crudroomapp.room.Note
+import id.my.zakariafathoni.crudroomapp.room.NoteDB
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class EditActivity : AppCompatActivity() {
 
-    val db by lazy { NoteDB(this)}
+    val db by lazy { NoteDB(this) }
     private var noteId: Int = 0
 
     private lateinit var binding : ActivityEditBinding

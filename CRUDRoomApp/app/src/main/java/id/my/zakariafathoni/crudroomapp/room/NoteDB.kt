@@ -1,9 +1,9 @@
+package id.my.zakariafathoni.crudroomapp.room
+
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import id.my.zakariafathoni.crudroomapp.room.Note
-import id.my.zakariafathoni.crudroomapp.room.NoteDao
 
 @Database(
     entities = [Note::class],
